@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Study Quest</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>Study Quest</h1>
+
+        <input type="text" id="taskInput" placeholder="Enter Task">
+        <button onclick="showTask()">Add Task</button>
+        <select id="subject">
+            <option>BCA</option>
+            <option>Web Development</option>
+            <option>Maths</option>
+        </select>
+
+        <select id="priority">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+        </select>
+        
+
+        <h2>Tasks</h2>
+
+        <ul id="taskList">
+            <li>No Tasks Yet</li>
+        </ul>
+
+        <script src="script.js"></script>
+        </div>
+    </body>
+</html>
